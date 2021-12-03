@@ -1,0 +1,224 @@
+/* 
+основной цвет фона #FFFFFF;
+вторичный цвет фона #F5F4FA;
+цвет фона футера #2F303A;
+цвет текста заголовков #212121;
+основной цвет текста #757575;
+цвет акцент #2196F3;
+
+ */
+
+ :root {
+     --primary-bg-color: #FFFFFF;
+     --secondary-bg-color: #F5F4FA;
+     --footer-bg-color: #2F303A;
+     --title-text-color: #212121;
+     --primary-text-color: #757575;
+     --accent-color: #2196F3;
+     --white-color: #FFFFFF;
+     }
+
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    }
+
+ul {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+}
+
+/* Header */
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31/26);
+}
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.nav-list a {
+    color: var(--title-text-color);
+    font-weight: 500;   
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+    color: var(--accent-color);
+}
+
+.nav-item.current {
+    color: var(--accent-color);
+}
+
+.contact-list a {
+    color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+
+.contact-list a:hover,
+.contact-list a:focus {
+    color: var(--accent-color);
+}
+
+/* Main (index-studio) */
+.main-section {
+    background-color: #2F303A;
+}
+
+.main-section h1 {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main-btn {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: calc(30/16);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background-color: #188CE8;
+}
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+}
+
+.section-point {
+    color: var(--title-text-color);
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+}
+
+.point-description {
+    font-size: 14px;
+    line-height: calc(24/14);
+}
+
+.our-team {
+    background-color: var(--secondary-bg-color);
+}
+
+.card-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+
+.card-description {
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+}
+
+/* Main portfolio */
+
+.btn-list .btn {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.btn-list .btn:hover,
+.btn-list .btn:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.prt-card-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+}
+
+.prt-card-description {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: calc(30/16);
+}
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
+footer .logo {
+    color: var(--white-color);
+}
+
+.footer-list address {
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24/14);
+}
+
+.footer-list a {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    line-height: calc(24/14);
+}
+
+.footer-list a:hover,
+.footer-list a:focus {
+    color: var(--accent-color);
+}
