@@ -18,7 +18,9 @@
      --white-color: #FFFFFF;
      }
 
-
+header {
+    border-bottom: 1px solid #ECECEC;
+}
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
@@ -30,6 +32,8 @@ body {
 
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a, a:hover, a:focus {
@@ -40,6 +44,14 @@ button {
     border: none;
     border-radius: 4px;
 }
+
+     .container {
+         margin-left: auto;
+         margin-right: auto;
+         width: 1200px;
+         padding-left: 15px;
+         padding-right: 15px;
+     }
 
 /* Header */
 .logo {
@@ -86,14 +98,17 @@ button {
 /* Main (index-studio) */
 .main-section {
     background-color: #2F303A;
+    text-align: center;
 }
 
 .main-section h1 {
+    padding-top: 200px;
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -108,6 +123,7 @@ button {
     text-align: center;
     letter-spacing: 0.06em;
 
+    margin-bottom: 200px;
     padding: 10px 32px;
     cursor: pointer;
 }
@@ -119,11 +135,14 @@ button {
 
 .section-title {
     color: var(--title-text-color);
-
     font-weight: bold;
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .section-point {
@@ -133,13 +152,23 @@ button {
     font-size: 14px;
     line-height: calc(16/14);
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
+.first-list {
+    padding-top: 94px;
+}
 .point-description {
     font-size: 14px;
     line-height: calc(24/14);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
+.images-list {
+    padding-bottom: 94px;
+}
 .our-team {
     background-color: var(--secondary-bg-color);
 }
@@ -221,4 +250,12 @@ footer .logo {
 .footer-list a:hover,
 .footer-list a:focus {
     color: var(--accent-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
