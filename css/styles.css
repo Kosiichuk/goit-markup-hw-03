@@ -45,6 +45,10 @@ button {
     border-radius: 4px;
 }
 
+img {
+    display: block;
+}
+
      .container {
          margin-left: auto;
          margin-right: auto;
@@ -96,6 +100,11 @@ button {
 }
 
 /* Main (index-studio) */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .main-section {
     background-color: #2F303A;
     text-align: center;
@@ -133,6 +142,10 @@ button {
     background-color: #188CE8;
 }
 
+.section.what-we-do{
+    padding-top: 0;
+}
+
 .section-title {
     color: var(--title-text-color);
     font-weight: bold;
@@ -141,7 +154,7 @@ button {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 94px;
+
     padding-bottom: 50px;
 }
 
@@ -156,9 +169,6 @@ button {
     margin-bottom: 10px;
 }
 
-.first-list {
-    padding-top: 94px;
-}
 .point-description {
     font-size: 14px;
     line-height: calc(24/14);
@@ -166,9 +176,6 @@ button {
     margin-bottom: 0;
 }
 
-.images-list {
-    padding-bottom: 94px;
-}
 .our-team {
     background-color: var(--secondary-bg-color);
 }
@@ -188,12 +195,6 @@ button {
 }
 
 /* Main portfolio */
-
-.container.works {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 
 .btn-list .btn {
     color: var(--title-text-color);
