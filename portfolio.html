@@ -6,27 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body
+<body>
     <header>
-        <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
-        <nav class="nav-list">
-            <ul>
-                <li><a class="nav-item" href="./index.html">Студия</a></li>
-                <li><a class="nav-item current" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="nav-item" href="">Контакты</a></li>
+        <div class="container">
+            <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+            <nav class="nav-list">
+                <ul>
+                    <li><a class="nav-item" href="./index.html">Студия</a></li>
+                    <li><a class="nav-item current" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="nav-item" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contact-list">
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="contact-list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         <section>
-                <h1 class="section-title">Портфолио</h1>
+                <div class="container works">
+                    <h1 class="section-title visually-hidden">Портфолио</h1>
                     <ul class="btn-list">
                         <li><button class="btn" type="button">Все</button></li>
                         <li><button class="btn" type="button">Веб-сайты</button></li>
@@ -34,7 +37,7 @@
                         <li><button class="btn" type="button">Дизайн</button></li>
                         <li><button class="btn" type="button">Маркетинг</button></li>
                     </ul>
-                    <ul>
+                    <ul class="card-list">
                         <li>
                             <a href="">
                                 <img src="./images/portfolio1.jpg" width="370" alt="Технокряк">
@@ -99,18 +102,21 @@
                             </a>
                         </li>
                     </ul>
+                </div>
         </section>
     </main>
 
     <footer>
-        <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
-        <ul class="footer-list">
-            <li>
-                <address>г. Киев, пр-т Леси Украинки, 26</address>
-            </li>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <div class="container">
+            <a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+            <ul class="footer-list">
+                <li>
+                    <address>г. Киев, пр-т Леси Украинки, 26</address>
+                </li>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

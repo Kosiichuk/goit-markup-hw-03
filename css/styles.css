@@ -189,6 +189,12 @@ button {
 
 /* Main portfolio */
 
+.container.works {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
 .btn-list .btn {
     color: var(--title-text-color);
     background-color: var(--secondary-bg-color);
@@ -206,18 +212,30 @@ button {
     background-color: var(--accent-color);
 }
 
+.card-list {
+    padding-top: 34px;
+}
+
 .prt-card-title {
     color: var(--title-text-color);
     font-weight: bold;
     font-size: 18px;
     line-height: calc(36/18);
     letter-spacing: 0.06em;
+
+    padding-top: 20px;
+    padding-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .prt-card-description {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: calc(30/16);
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
